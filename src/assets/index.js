@@ -30,7 +30,7 @@ import CSV_Analyzer from "./company/spring.svg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import marketplace from "./marketplace.png";
 
 export {
   logo,
@@ -62,5 +62,5 @@ export {
   Shopy,
   carrent,
   jobit,
-  tripguide,
+  marketplace,
 };

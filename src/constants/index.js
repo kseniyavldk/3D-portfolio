@@ -20,7 +20,7 @@ import {
   Shopy,
   carrent,
   jobit,
-  tripguide,
+  marketplace,
   threejs,
 } from "../assets";
 
@@ -192,9 +192,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SmartShopBuddy",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Application for collaborative family shopping lists, integrating a Telegram bot, web interface, and backend server with MongoDB.",
     tags: [
       {
         name: "react",
@@ -210,49 +210,49 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/kseniyavldk/smartshopbuddy",
   },
   {
-    name: "Job IT",
+    name: "Job Tracker",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Application for tracking job application responses, built with Next.js, Koa, and MongoDB.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "ship",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mantine",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/kseniyavldk/job-tracking",
   },
   {
-    name: "Trip Guide",
+    name: "QuickCart",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Modern marketplace application with Stripe payment integration, built using Ship, Next.js, MongoDB, and Firebase.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "clerk",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: marketplace,
+    source_code_link: "https://github.com/kseniyavldk/QuickCart",
   },
 ];
 
