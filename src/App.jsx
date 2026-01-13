@@ -5,12 +5,12 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
   Tech,
   Works,
 } from "./components";
+import { StarsCanvas } from "./components/canvas";
 
 function App() {
   return (
@@ -24,9 +24,9 @@ function App() {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
         <div className="relative z-0">
           <Contact />
+          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>
